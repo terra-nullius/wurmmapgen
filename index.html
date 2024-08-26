@@ -62,7 +62,8 @@
 				<a href="http://leafletjs.com/" target="_blank" rel="noreferrer noopener">Leaflet</a>
 			</p>
 
-			<p>Developed and maintained by <a href="https://github.com/woubuc">woubuc</a></p>
+			<p>Maintained by <a href="https://gitlab.com/tyoda-wurm">Tyoda</a></p>
+			<p>Developed by <a href="https://github.com/woubuc">woubuc</a></p>
 			<p>Based on code by <a href="https://github.com/Garrett92/">Garrett92</a></p>
 		</div>
 
@@ -73,6 +74,10 @@
 		<div id="search-results" v-if="searchQuery !== ''">
 			<div v-for="result in searchResults" :class="result.type" v-html="result.label" @click="focusMap(result.x, result.y); searchQuery = '';"></div>
 		</div>
+	</div>
+
+	<div id="nojs" class="transition z-gui">
+		<a href="./images/map_full.png">If you have JavaScript disabled, click here to view an image of the map.</a>
 	</div>
 
 	<!-- Map container -->

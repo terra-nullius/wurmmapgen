@@ -37,8 +37,8 @@ WurmMapGen.markers = {
 			if (itemType === 'player') { return WurmMapGen.markers.style2.player; }
 			if (itemType === 'portal') { return WurmMapGen.markers.style2.portal; }
 
-			if (item.citizens < 2) { return WurmMapGen.markers.style2.village_solo; }
-			if (item.citizens < 9) { return WurmMapGen.markers.style2.village_small; }
+			if (item.citizenCount < 2) { return WurmMapGen.markers.style2.village_solo; }
+			if (item.citizenCount < 9) { return WurmMapGen.markers.style2.village_small; }
 			return WurmMapGen.markers.style2.village_large;
 		}
 

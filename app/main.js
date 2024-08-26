@@ -2,6 +2,12 @@
 
 (function() {
 
+// Disable no-js text
+var noJsElement = document.getElementById("nojs");
+if(noJsElement !== null) {
+	noJsElement.style.visibility = "hidden";
+}
+
 // Prepare arrays for loaded data
 WurmMapGen.config = null;
 
