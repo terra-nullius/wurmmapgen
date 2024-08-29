@@ -14,7 +14,6 @@ if %errorlevel% neq 0 (
 )
 
 REM Continue with existing git commands
-clear
 git status
 git add *
 git commit -m "..."
