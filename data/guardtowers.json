@@ -1,1 +1,4 @@
-{"guardtowers":[{"creator":"Cthulhuhoop","borders":[3209,282,3309,382],"x":3259,"y":332,"ql":"98.91","dmg":"1.41"},{"creator":"Terric","borders":[3882,1569,3982,1669],"x":3932,"y":1619,"ql":"29.07","dmg":"0.00"},{"creator":"Cthulhugm","borders":[2461,1225,2561,1325],"x":2511,"y":1275,"ql":"95.00","dmg":"8.34"},{"creator":"Cthulhugm","borders":[2469,1167,2569,1267],"x":2519,"y":1217,"ql":"100.00","dmg":"0.00"},{"creator":"Cthulhugm","borders":[2415,1360,2515,1460],"x":2465,"y":1410,"ql":"79.63","dmg":"0.00"},{"creator":"Izabellia","borders":[347,276,447,376],"x":397,"y":326,"ql":"48.18","dmg":"0.00"},{"creator":"Lark","borders":[2620,1308,2720,1408],"x":2670,"y":1358,"ql":"49.77","dmg":"12.39"},{"creator":"Trenteaston","borders":[2558,1319,2658,1419],"x":2608,"y":1369,"ql":"51.90","dmg":"0.00"},{"creator":"Fernster","borders":[2439,2485,2539,2585],"x":2489,"y":2535,"ql":"59.30","dmg":"1.07"},{"creator":"Insanis","borders":[2797,1330,2897,1430],"x":2847,"y":1380,"ql":"50.14","dmg":"0.00"}]}
+{
+  "guardtowers": [],
+  "USER_DO_NOT_EDIT": "This file will be overwritten by the map generator. You should not make any changes to this file."
+}
